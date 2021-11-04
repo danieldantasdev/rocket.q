@@ -1,12 +1,16 @@
 <section>
     <h2>Crie sua própria sala</h2>
-    <form action="/create-room" method="POST">
-        <label class="sr-only" for="room-pass">Insira uma senha</label>
-        <input type="password" name="password" id="room-pass" placeholder="Insira uma senha">
+    <form action="/room/create-room">
+        <label class="sr-only" for="room-pass">insira uma senha</label>
+        <!-- sr-only deixa o label invisível para o navegador-->
+        <input
+            type="password"
+            id="room-pass"
+            placeholder="insira uma senha"
+        /><!-- room id conecta o input ao label -->
         <button>
-            <img src="images/users-white.svg" alt="Entrar na sala">
-            Criar Sala
-            </button>
+            <img src="img/users-white.svg" alt="Entrar na sala" />
+            Criar sala
+        </button>
     </form>
-</section>     
-                
+</section>

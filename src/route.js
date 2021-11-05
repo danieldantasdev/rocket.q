@@ -12,7 +12,7 @@ route.get('/create-pass', (req, res) =>
 route.get('/room/:room', (req, res) => res.render('room'))
 
 //formato que o formulário de dentro da modal tem que passar a informação
-route.post('/room/:room/:question/:action', QuestionController.index)
-route.post('/room/create-room', RoomController.create)
+route.post('/question/:room/:question/:action', QuestionController.index)
+route.post('/create-room', RoomController.create)
 
 module.exports = route /* define exportação da rota */

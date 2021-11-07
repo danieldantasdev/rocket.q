@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionados ao dono da página. Projeto desenvolvido desenvolvido na semana NLW da Rocketseat na missão Discover",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "@robotsdeveloper:registry": "https://npm.pkg.github.com"
     },
     "main": "src/server.js",
     "scripts": {

@@ -2,6 +2,10 @@
     "name": "rocketq",
     "version": "1.0.0",
     "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionados ao dono da página. Projeto desenvolvido desenvolvido na semana NLW da Rocketseat na missão Discover",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "repository": "https://github.com/robotsdeveloper",
     "main": "src/server.js",
     "scripts": {
         "start": "nodemon .",

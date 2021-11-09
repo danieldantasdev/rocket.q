@@ -1,24 +1,24 @@
 <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src="github/rocketq.png" width="220px" />
+  <img alt="Rocket.Q" title="Rocket.Q" src=".github/rocketq.png" width="220px" />
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="Rocket.Q" src="github/capa.png" width="100%">
+  <img alt="Rocket.Q" src=".github/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- NodeJS
-- EJS
-- Express
-- SQLite
+-   HTML
+-   CSS
+-   JavaScript
+-   NodeJS
+-   EJS
+-   Express
+-   SQLite
 
 ## 💻 Projeto
 

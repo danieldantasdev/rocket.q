@@ -4,7 +4,7 @@ const path = require('path')
 
 const server = express()
 
-const port = process.env.PORT || 3000 //deploy heroku
+const port = process.env.PORT || 3000 //deploy heroku para
 
 server.set('view engine', 'ejs') /* nossa view engine será o ejs */
 

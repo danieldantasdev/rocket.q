@@ -8,8 +8,7 @@
     "main": "src/server.js",
     "scripts": {
         "start": "nodemon .",
-        "init-db": "node src/db/init.js",
-        "build": "nodemon build src/views/parts/index.ejs"
+        "init-db": "node src/db/init.js"
     },
     "keywords": [],
     "author": "Daniel Dantas",
